@@ -46,12 +46,17 @@ export interface Step {
 	 */
 	name: string;
 
+	stepStatus?:StepStatus
 	/**
 	 * @description The properties of the step.
 	 */
 	properties: Properties;
 }
-
+export enum StepStatus {
+    loading,
+    loaded,
+    error
+}
 /**
  * @description Represents a component type.
  */

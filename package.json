@@ -1,7 +1,7 @@
 {
-	"name": "sequential-workflow-model",
+	"name": "tezo-sequential-workflow-model",
 	"description": "Extendable data model of sequential workflow.",
-	"version": "0.1.4",
+	"version": "0.1",
 	"homepage": "https://nocode-js.com/",
 	"author": {
 		"name": "NoCode JS",
@@ -31,11 +31,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nocode-js/sequential-workflow-model.git"
+		"url": "https://github.com/SaiCharan1729/tezo-sequential-workflow-model.git"
 	},
 	"scripts": {
 		"clean": "rm -rf build && rm -rf lib && rm -rf node_modules/.cache/rollup-plugin-typescript2",
-		"build": "yarn clean && rollup -c",
+		"start": "rollup -c --watch",
+		"build": "rollup -c",
 		"prettier": "prettier --check ./src",
 		"prettier:fix": "prettier --write ./src",
 		"test:single": "jest",
