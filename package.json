@@ -1,7 +1,7 @@
 {
 	"name": "tezo-sequential-workflow-model",
-	"description": "Extendable data model of sequential workflow.",
-	"version": "0.1",
+	"description": "Forked Extendable data model of sequential workflow.",
+	"version": "1.0.2",
 	"homepage": "https://nocode-js.com/",
 	"author": {
 		"name": "NoCode JS",
