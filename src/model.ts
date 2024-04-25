@@ -55,6 +55,7 @@ export interface Step {
 export enum StepStatus {
     loading,
     loaded,
+	warning,
     error
 }
 /**
